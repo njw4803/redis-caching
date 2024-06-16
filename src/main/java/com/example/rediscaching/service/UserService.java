@@ -31,7 +31,6 @@ public class UserService {
         }
         // String userName = externalApiService.getUserName(userId);
 
-
         int userAge = externalApiService.getUserAge(userId);
 
         return new UserProfile(userName, userAge);
